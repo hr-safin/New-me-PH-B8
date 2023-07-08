@@ -30,7 +30,7 @@ body {
 }
 
 .header-content {
-  padding: 120px 90px 100px 100px;
+  padding: 120px 140px 100px 100px;
 }
 
 .home-title {
@@ -86,15 +86,14 @@ li {
   list-style: none;
 }
 
-li:not(:last-child){
-    margin-bottom: 5px;
-
+li:not(:last-child) {
+  margin-bottom: 5px;
 }
 
-li:before{
-    content: "\2714";
-    padding-right: 6px;
-    color: #16D887;
+li:before {
+  content: "\2714";
+  padding-right: 6px;
+  color: #16d887;
 }
 
 /* My plan */
@@ -132,21 +131,82 @@ li:before{
 /* photo bg */
 
 .img-bg {
-  background: linear-gradient(rgba(23, 12, 228, 0.866),rgba(8, 49, 199, 0.088)),url("./images/watch.png");
+  background: linear-gradient(rgba(12, 73, 228, 0.866), rgba(8, 49, 199, 0.088)),
+    url("./images/watch.png");
   background-repeat: no-repeat;
-  
+
   width: 1140px;
   height: 250px;
   margin: 70px 200px;
   border-radius: 10px;
 }
-.image-disc{
-    padding: 42px ;
+.image-disc {
+  padding: 42px;
 }
 
 .photo-title {
   color: #fff;
   width: 459px;
   font-size: 30px;
-  
+}
+
+/* Footer */
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+
+  height: 250px;
+  padding: 80px 150px;
+}
+
+footer {
+  background-color: #151414;
+  color: #fff;
+  margin-top: 70px;
+}
+
+.footer-title {
+  color: #f8f8f8;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.footer-info {
+  color: #fff;
+  width: 400px;
+  font-size: 13px;
+  padding-bottom: 4px;
+}
+
+.social-link img {
+  font-size: 20px;
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+.contact input {
+  display: block;
+  margin-bottom: 13px;
+  padding: 8px 15px;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  width: 200px;
+}
+
+.sub {
+  color: #fff;
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.btn {
+  border-radius: 5px;
+  background: #005fac;
+  border: none;
+  color: #fff;
+  padding: 12px 22px;
+  font-size: 15px;
+  cursor: pointer;
+
 }
